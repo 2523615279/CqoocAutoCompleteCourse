@@ -6,7 +6,7 @@ import json
 
 ################### Config #############################
 
-cookie_xsid = ''
+cookie_xsid = '36E2F654FAF92210'
 
 ########################################################
 
@@ -233,7 +233,7 @@ class AutoCompleteOnlineCourse:
 
         while True:
             print("\n1、模拟观看网课\n2、题目作答（过期题目作答）\n3、题目作答（拷贝答案作答）\n")
-            select = 1
+            select = "1"
             if select == '1':
                 self.CompleteCourse = self.getCompleteCourse()
                 self.getCourseDes()
