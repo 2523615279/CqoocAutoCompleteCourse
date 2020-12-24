@@ -23,7 +23,7 @@ jobs:
         python-version: 3.7
     - name: 签到
       run: |
-        pip install -r requirements.txt
-        python3 checkin.py <<EOF
+        pip install requests
+        python3 cqooc.py <<EOF
         EOF
         done
