@@ -221,7 +221,7 @@ class AutoCompleteOnlineCourse:
             })
         while True:
             try:
-                id = 3
+                id = 1
                 self.title = courseData[int(id) - 1]['title']
                 break
             except:
