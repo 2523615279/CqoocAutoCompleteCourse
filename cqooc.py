@@ -6,7 +6,7 @@ import json
 
 ################### Config #############################
 
-cookie_xsid = ''
+cookie_xsid = '36E2F654FAF92210'
 
 ########################################################
 
@@ -221,7 +221,7 @@ class AutoCompleteOnlineCourse:
             })
         while True:
             try:
-                id = input('请选择课程（序号）:')
+                id = 3
                 self.title = courseData[int(id) - 1]['title']
                 break
             except:
@@ -233,7 +233,7 @@ class AutoCompleteOnlineCourse:
 
         while True:
             print("\n1、模拟观看网课\n2、题目作答（过期题目作答）\n3、题目作答（拷贝答案作答）\n")
-            select = input("请选择模式（序号）: ")
+            select = 1
             if select == '1':
                 self.CompleteCourse = self.getCompleteCourse()
                 self.getCourseDes()
